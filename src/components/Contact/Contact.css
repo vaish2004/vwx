@@ -1,0 +1,71 @@
+.contact__wrapper {
+  padding: 96px 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact__desc {
+  font-size: 17px;
+  max-width: 500px;
+  margin: 0 auto 28px;
+  line-height: 1.75;
+}
+
+.contact__status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid;
+  border-radius: 100px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 36px;
+}
+
+.contact__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.4; }
+}
+
+.contact__actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact__btn-primary {
+  padding: 12px 28px;
+  border: none;
+  border-radius: 12px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+}
+
+.contact__btn-secondary {
+  padding: 12px 28px;
+  border: 1px solid;
+  border-radius: 12px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  background: transparent;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+}

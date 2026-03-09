@@ -40,7 +40,7 @@ const EXPERIENCE = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="dark:bg-gray-900/50 bg-stone-100">
+    <section id="experience" className="dark:bg-gray-950 bg-stone-50">
       <div className="experience__wrapper">
         <p className="section-label text-indigo-500">Where I've Worked</p>
         <h2 className="section-title dark:text-white text-gray-900">Professional Experience</h2>

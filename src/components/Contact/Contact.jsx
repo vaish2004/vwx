@@ -2,12 +2,12 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <section id="contact" className="dark:bg-gray-900/50 bg-stone-100">
+    <section id="contact" className="dark:bg-blue-400 bg-stone-100">
       <div className="contact__wrapper">
         <p className="section-label text-indigo-500">Let's Work Together</p>
         <h2 className="section-title dark:text-white text-gray-900">Get In Touch</h2>
 
-        <p className="contact__desc dark:text-gray-400 text-gray-500">
+        <p className="contact__desc dark:text-black-400 text-black-500">
           Open to full stack, frontend or backend roles where I can build
           scalable systems, lead teams, and deliver quality products.
         </p>
@@ -24,14 +24,8 @@ export default function Contact() {
           >
             Send an Email →
           </a>
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noreferrer"
-            className="contact__btn-secondary dark:border-white/10 border-black/10 dark:text-white text-gray-800 dark:hover:border-indigo-500 hover:border-indigo-400"
-          >
-            LinkedIn ↗
-          </a>
+          
+         
         </div>
       </div>
     </section>

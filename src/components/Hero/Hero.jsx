@@ -6,7 +6,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="hero" className="hero dark:bg-gray-950 bg-stone-50">
+    <section id="hero" className="hero dark:bg-blue-400 bg-stone-50">
       <div className="hero__glow" aria-hidden="true" />
 
       <div className="hero__content">
@@ -20,25 +20,26 @@ export default function Hero() {
           <span className="block text-indigo-500">MEAN Stack Developer</span>
         </h1>
 
-        <p className="hero__desc dark:text-gray-400 text-gray-500">
+        <p className="hero__desc dark:text-black-400 text-black-500">
           8+ years building scalable web applications with Angular, React, Node.js,
           NestJS and cloud platforms. Expert in microservices, REST APIs, and
           full-stack delivery across healthcare and IoT domains.
         </p>
 
         <div className="hero__actions">
-          <button
-            className="hero__btn-primary bg-indigo-500 hover:bg-indigo-600 text-white"
-            onClick={() => scrollTo("contact")}
+          
+          
+         
+           <a
+            href=" https://github.com/jiten-muradnar-think"
+            target="_blank"
+            rel="noreferrer"
+            className="btn-secondary"
+            style={{color:"white" , gap:"10px", borderRadius:"15px 12px", border:"1px solid white", padding:"14px 8px" }}
           >
-            Get In Touch →
-          </button>
-          <button
-            className="hero__btn-secondary dark:border-white/10 border-black/10 dark:text-white text-gray-800 dark:hover:border-indigo-500 hover:border-indigo-400"
-            onClick={() => scrollTo("experience")}
-          >
-            View Experience ↓
-          </button>
+            GitHub 
+          </a>
+      
         </div>
       </div>
     </section>

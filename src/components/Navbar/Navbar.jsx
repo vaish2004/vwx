@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useTheme } from "../../context/ThemeContext";
 import "./Navbar.css";
 
-const NAV_LINKS = ["Skills", "Experience", "Projects", "AI", "Architecture", "Contact"];
+const NAV_LINKS = ["Skills", "Experience", "Projects", "Domain Specialisations", "Architecture", "Contact"];
 
 export default function Navbar() {
   const { dark, toggleTheme } = useTheme();

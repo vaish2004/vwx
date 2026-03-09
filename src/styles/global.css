@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ── Base Reset ───────────────────────────────────────── */
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -24,7 +24,7 @@ a {
   color: inherit;
 }
 
-/* ── Shared Typography ────────────────────────────────── */
+
 .section-label {
   font-size: 13px;
   font-weight: 700;

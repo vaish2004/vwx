@@ -25,7 +25,7 @@ const EXPERTISE = [
 
 export default function AISection() {
   return (
-    <section id="ai" className="dark:bg-gray-900/50 bg-stone-100">
+    <section id="ai" className="dark:bg-gray-950 bg-stone-50">
       <div className="ai__wrapper">
         <p className="section-label text-indigo-500">Core Expertise</p>
         <h2 className="section-title dark:text-white text-gray-900">Domain Specialisations</h2>
